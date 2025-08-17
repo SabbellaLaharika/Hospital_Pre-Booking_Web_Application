@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { DataProvider, useData } from './context/DataContext';
 
 // Pages
@@ -92,9 +92,7 @@ function AppRoutes() {
 function App() {
   return (
     <DataProvider>
-      <Router>
-        <AppRoutes />
-      </Router>
+      <AppRoutes />
     </DataProvider>
   );
 }
