@@ -2,7 +2,7 @@
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sabbellalaharika.github.io/Hospital_Pre-Booking_Web_Application/#",
+  "homepage": "https://sabbellalaharika.github.io/Hospital_Pre-Booking_Web_Application/#/",
   "type": "module",
   "scripts": {
     "dev": "vite",
