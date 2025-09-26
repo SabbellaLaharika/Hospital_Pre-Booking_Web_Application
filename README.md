@@ -77,21 +77,21 @@ Key components:
 
 ## 📂 Project Structure
 
-````
+`
+```
 
 Hospital_Pre-Booking_Web_Application/
 │
-├── src/                # source code (components, views, state, logic)
-├── index.html          # entry HTML template
-├── vite.config.ts      # Vite bundler configuration
-├── tailwind.config.js  # Tailwind CSS configuration
-├── postcss.config.js   # PostCSS setup
-├── tsconfig.json       # TypeScript config
-├── package.json        # dependencies & scripts
+├── src/ # source code (components, views, state, logic)
+├── index.html # entry HTML template
+├── vite.config.ts # Vite bundler configuration
+├── tailwind.config.js # Tailwind CSS configuration
+├── postcss.config.js # PostCSS setup
+├── tsconfig.json # TypeScript config
+├── package.json # dependencies & scripts
 ├── package-lock.json / yarn.lock
-├── eslint.config.js    # linting rules
+├── eslint.config.js # linting rules
 └── .gitignore
-
 ```
 
 ---
