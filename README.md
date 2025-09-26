@@ -1,8 +1,3 @@
-Got it ✅ You’d like the **README** to be in **clean plain text** style, without markdown headings (`##`, `#`, etc.), but still structured and good-looking.
-
-Here’s the same **README** for your **Hospital_Pre-Booking_Web_Application** in plain text:
-
----
 
 ## Hospital Pre-Booking Web Application
 
@@ -131,7 +126,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 This application is created for educational and demo purposes.
 For production use, especially when handling sensitive medical data, ensure robust security, privacy compliance, encryption, and backend validation.
-
----
-
-Do you also want me to reformat the **first project (ML-with-web)** README into the same **plain text style** so both repos match consistently?
