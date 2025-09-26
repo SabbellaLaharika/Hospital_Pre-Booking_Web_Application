@@ -63,7 +63,7 @@ Steps to run locally:
 ---
 
 ## Project Structure
-
+```
 Hospital_Pre-Booking_Web_Application/
 │
 ├── src/                - source code (components, views, state, logic)
@@ -75,7 +75,7 @@ Hospital_Pre-Booking_Web_Application/
 ├── package.json        - dependencies and scripts
 ├── eslint.config.js    - linting rules
 └── .gitignore
-
+```
 ---
 
 ## Usage and Workflow
