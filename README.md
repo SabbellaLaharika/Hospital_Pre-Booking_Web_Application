@@ -1,151 +1,137 @@
+Got it ✅ You’d like the **README** to be in **clean plain text** style, without markdown headings (`##`, `#`, etc.), but still structured and good-looking.
 
-````markdown
-# Hospital Pre-Booking Web Application
+Here’s the same **README** for your **Hospital_Pre-Booking_Web_Application** in plain text:
+
+---
+
+## Hospital Pre-Booking Web Application
 
 A modern web application for hospital appointment booking, allowing users to select hospitals, doctors, time slots, and make pre-bookings.
 
 ---
 
-## 🏥 Project Overview
+## Project Overview
 
-This project implements a **hospital pre-booking web application** using a web frontend (TypeScript, Vite, Tailwind CSS, etc.). Patients can browse hospitals/doctors, book appointment slots in advance, and manage bookings.
+This project implements a hospital pre-booking web application using a web frontend (TypeScript, Vite, Tailwind CSS, etc.).
+Patients can browse hospitals and doctors, book appointment slots in advance, and manage bookings.
 
-You can access it at this [link](`https://sabbellalaharika.github.io/Hospital_Pre-Booking_Web_Application/`)
 Key components:
 
-- Frontend written in TypeScript / Vite  
-- Styling using Tailwind CSS  
-- Routing, state management, and UI logic included  
-- HTML entry point (`index.html`)  
-- Configuration files for linting, bundling, etc.
+* Frontend written in TypeScript with Vite
+* Styling using Tailwind CSS
+* Routing, state management, and UI logic
+* HTML entry point (index.html)
+* Configuration files for linting, bundling, and builds
 
 ---
 
-## ⚙️ Features & Highlights
+## Features
 
-- Responsive user interface for booking hospital appointments  
-- Dynamic doctor selection and time slot display  
-- Form validation and booking workflow  
-- Clean folder structure suitable for extension  
-- Built with modern frontend tooling: Vite, TypeScript, Tailwind CSS  
-
----
-
-## 🧪 Requirements & Setup
-
-### Prerequisites
-
-- Node.js (v14 / v16 / latest LTS recommended)  
-- npm or yarn
-
-### Installation & Running
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/SabbellaLaharika/Hospital_Pre-Booking_Web_Application.git
-    cd Hospital_Pre-Booking_Web_Application
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-3. Start development server:
-
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
-
-4. Open your browser to the displayed local address (e.g. `http://localhost:3000`) to see the app in action.
-
-5. For a production build:
-
-    ```bash
-    npm run build
-    # or
-    yarn build
-    ```
+* Responsive user interface for booking hospital appointments
+* Dynamic doctor selection and time slot display
+* Form validation and booking workflow
+* Clean folder structure, easy to extend
+* Built with modern frontend tooling: Vite, TypeScript, Tailwind CSS
 
 ---
 
-## 📂 Project Structure
+## Requirements and Setup
 
-```
+Prerequisites:
+
+* Node.js (v14, v16 or latest LTS recommended)
+* npm or yarn
+
+Steps to run locally:
+
+1. Clone the repository
+   git clone [https://github.com/SabbellaLaharika/Hospital_Pre-Booking_Web_Application.git](https://github.com/SabbellaLaharika/Hospital_Pre-Booking_Web_Application.git)
+   cd Hospital_Pre-Booking_Web_Application
+
+2. Install dependencies
+   npm install
+   or
+   yarn install
+
+3. Start the development server
+   npm run dev
+   or
+   yarn dev
+
+4. Open the browser at the displayed local address (e.g. [http://localhost:3000](http://localhost:3000))
+
+5. For production build
+   npm run build
+   or
+   yarn build
+
+---
+
+## Project Structure
 
 Hospital_Pre-Booking_Web_Application/
 │
-├── src/                # source code (components, views, state, logic)
-├── index.html          # entry HTML template
-├── vite.config.ts      # Vite bundler configuration
-├── tailwind.config.js  # Tailwind CSS configuration
-├── postcss.config.js   # PostCSS setup
-├── tsconfig.json       # TypeScript config
-├── package.json        # dependencies & scripts
-├── package-lock.json / yarn.lock
-├── eslint.config.js    # linting rules
+├── src/                - source code (components, views, state, logic)
+├── index.html          - entry HTML template
+├── vite.config.ts      - Vite bundler configuration
+├── tailwind.config.js  - Tailwind CSS configuration
+├── postcss.config.js   - PostCSS setup
+├── tsconfig.json       - TypeScript config
+├── package.json        - dependencies and scripts
+├── eslint.config.js    - linting rules
 └── .gitignore
 
-```
+---
+
+## Usage and Workflow
+
+* Browse hospital and doctor listings
+* Select an available time slot
+* Submit a pre-booking form
+* Optionally view or cancel existing bookings
+
+Possible extensions:
+
+* Backend API integration (server + database)
+* User authentication (login, signup)
+* Payment integration
+* Notifications via email or SMS
+* Admin dashboard for hospital staff
 
 ---
 
-## 🚀 Usage & Workflow
+## Best Practices
 
-- Browse hospital & doctor listing UI  
-- Select an available time slot  
-- Submit pre-booking form  
-- (Optional) View / cancel existing bookings  
-
-You may extend it further by:
-
-- Connecting a backend API (server + database)  
-- Adding authentication (user login / signup)  
-- Payment integration  
-- Notification system (email/SMS reminders)  
-- Admin dashboard for hospital staff  
+* Validate forms on both client and server side
+* Keep state management clean and modular
+* Optimize performance with lazy loading
+* Use environment variables (.env) for API endpoints
+* Ensure accessibility and responsive design
 
 ---
 
-## ✅ Best Practices & Tips
+## Contributing
 
-- Validate forms both client- and server-side  
-- Keep state management clean (e.g. using context, stores)  
-- Optimize components with lazy loading  
-- Use `.env` variables for API endpoints  
-- Ensure accessibility and responsive design  
+Contributions are welcome. To contribute:
 
----
-
-## 🧑‍💻 Contributing
-
-Contributions are welcome!  
-Steps:  
-
-1. Fork the repo  
-2. Create a feature branch (`git checkout -b feature/YourFeature`)  
-3. Commit your changes  
-4. Push and open a Pull Request  
-
-Please also update this README for major changes.
+1. Fork the repository
+2. Create a new branch (git checkout -b feature/YourFeature)
+3. Commit your changes
+4. Push the branch and open a Pull Request
 
 ---
 
-## 📄 License & Acknowledgements
+## License
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for more details.  
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
-> ⚠️ **Disclaimer:**  
-> This app is for educational/demo purposes. For production (especially handling sensitive medical data), implement **robust security, privacy compliance, encryption, and backend validation**.
+## Disclaimer
 
-```
+This application is created for educational and demo purposes.
+For production use, especially when handling sensitive medical data, ensure robust security, privacy compliance, encryption, and backend validation.
 
+---
+
+Do you also want me to reformat the **first project (ML-with-web)** README into the same **plain text style** so both repos match consistently?
