@@ -77,7 +77,6 @@ Key components:
 
 ## 📂 Project Structure
 
-`
 ```
 
 Hospital_Pre-Booking_Web_Application/
